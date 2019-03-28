@@ -12,8 +12,11 @@
 		ACD9843F224C92720099F33E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD9843D224C92720099F33E /* Main.storyboard */; };
 		ACD98441224C927B0099F33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD98440224C927B0099F33E /* Assets.xcassets */; };
 		ACD98444224C927B0099F33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD98442224C927B0099F33E /* LaunchScreen.storyboard */; };
-		ACD9844F224C927B0099F33E /* TimerImageView02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9844E224C927B0099F33E /* TimerImageView02Tests.swift */; };
-		ACD9845A224C927B0099F33E /* TimerImageView02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD98459224C927B0099F33E /* TimerImageView02UITests.swift */; };
+		ACD9846C224C95DD0099F33E /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD98467224C95DC0099F33E /* frame5.png */; };
+		ACD9846D224C95DD0099F33E /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD98468224C95DC0099F33E /* frame4.png */; };
+		ACD9846E224C95DD0099F33E /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD98469224C95DC0099F33E /* frame3.png */; };
+		ACD9846F224C95DD0099F33E /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD9846A224C95DC0099F33E /* frame1.png */; };
+		ACD98470224C95DD0099F33E /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD9846B224C95DC0099F33E /* frame2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +45,12 @@
 		ACD98443224C927B0099F33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACD98445224C927B0099F33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD9844A224C927B0099F33E /* TimerImageView02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerImageView02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACD9844E224C927B0099F33E /* TimerImageView02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerImageView02Tests.swift; sourceTree = "<group>"; };
-		ACD98450224C927B0099F33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD98455224C927B0099F33E /* TimerImageView02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerImageView02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACD98459224C927B0099F33E /* TimerImageView02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerImageView02UITests.swift; sourceTree = "<group>"; };
-		ACD9845B224C927B0099F33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD98467224C95DC0099F33E /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
+		ACD98468224C95DC0099F33E /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		ACD98469224C95DC0099F33E /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
+		ACD9846A224C95DC0099F33E /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		ACD9846B224C95DC0099F33E /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				ACD98438224C92720099F33E /* TimerImageView02 */,
-				ACD9844D224C927B0099F33E /* TimerImageView02Tests */,
-				ACD98458224C927B0099F33E /* TimerImageView02UITests */,
 				ACD98437224C92720099F33E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +99,11 @@
 		ACD98438224C92720099F33E /* TimerImageView02 */ = {
 			isa = PBXGroup;
 			children = (
+				ACD9846A224C95DC0099F33E /* frame1.png */,
+				ACD9846B224C95DC0099F33E /* frame2.png */,
+				ACD98469224C95DC0099F33E /* frame3.png */,
+				ACD98468224C95DC0099F33E /* frame4.png */,
+				ACD98467224C95DC0099F33E /* frame5.png */,
 				ACD98439224C92720099F33E /* AppDelegate.swift */,
 				ACD9843B224C92720099F33E /* ViewController.swift */,
 				ACD9843D224C92720099F33E /* Main.storyboard */,
@@ -105,24 +112,6 @@
 				ACD98445224C927B0099F33E /* Info.plist */,
 			);
 			path = TimerImageView02;
-			sourceTree = "<group>";
-		};
-		ACD9844D224C927B0099F33E /* TimerImageView02Tests */ = {
-			isa = PBXGroup;
-			children = (
-				ACD9844E224C927B0099F33E /* TimerImageView02Tests.swift */,
-				ACD98450224C927B0099F33E /* Info.plist */,
-			);
-			path = TimerImageView02Tests;
-			sourceTree = "<group>";
-		};
-		ACD98458224C927B0099F33E /* TimerImageView02UITests */ = {
-			isa = PBXGroup;
-			children = (
-				ACD98459224C927B0099F33E /* TimerImageView02UITests.swift */,
-				ACD9845B224C927B0099F33E /* Info.plist */,
-			);
-			path = TimerImageView02UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +218,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD9846D224C95DD0099F33E /* frame4.png in Resources */,
+				ACD9846E224C95DD0099F33E /* frame3.png in Resources */,
+				ACD98470224C95DD0099F33E /* frame2.png in Resources */,
 				ACD98444224C927B0099F33E /* LaunchScreen.storyboard in Resources */,
+				ACD9846C224C95DD0099F33E /* frame5.png in Resources */,
 				ACD98441224C927B0099F33E /* Assets.xcassets in Resources */,
+				ACD9846F224C95DD0099F33E /* frame1.png in Resources */,
 				ACD9843F224C92720099F33E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD9844F224C927B0099F33E /* TimerImageView02Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD9845A224C927B0099F33E /* TimerImageView02UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
